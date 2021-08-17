@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	text-align: center;
+	cursor: pointer;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	padding: 1.3rem 1rem 0;
+	align-items: center;
+}
+
+nav a,
+nav button {
+	padding-right: 1rem;
+}
+
+nav button {
+	border: none;
+	background-color: inherit;
+}
+
+.account-picker {
+	border-radius: 50%;
+	background-color: purple;
+	padding: 0.5rem 0.7rem;
+	color: white;
+}
+
+.container {
+	text-align: center;
+	padding: 2rem;
+}
+
+.container img {
+	margin-bottom: 0.6rem;
+}
+
+.search-box {
+	position: relative;
+	max-width: 570px;
+	margin: 0 auto 2.5rem;
+}
+
+.search-box input {
+	border: 1px solid rgba(0, 0, 0, 0.267);
+	width: 570px;
+	padding: 10px 30px;
+	border-radius: 16px;
+}
+
+.search-box img {
+	position: absolute;
+	top: 10%;
+}
+
+.search-icon {
+	left: 15px;
+}
+
+.microphone-icon {
+	right: 15px;
+}
+
+.buttonsWrapper button {
+	background-color: #f2f2f2;
+	color: rgb(36, 36, 36);
+	border: none;
+	padding: 0.8rem;
+	margin-right: 0.5rem;
+}
+
+footer {
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+footer > div {
+	padding: 0.9rem 1.5rem;
+}
+
+.links {
+	display: flex;
+	border-top: 1px solid #dadce0;
+}
+
+.links a {
+	padding-right: 1.5rem;
+}
+
+.privacy-settings {
+	margin-left: auto;
+}
